@@ -48,6 +48,9 @@
     <Filter Include="ExEngine\level2D">
       <UniqueIdentifier>{80abc458-e4b9-4836-89c7-3eb842072871}</UniqueIdentifier>
     </Filter>
+    <Filter Include="YIEngine">
+      <UniqueIdentifier>{ee6f5ada-99e9-43a2-93ad-44f75e173355}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -208,6 +211,15 @@
     </ClCompile>
     <ClCompile Include="..\..\ExEngine\level2D\MapChip2D.cpp">
       <Filter>ExEngine\level2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>YIEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinModelRender.cpp">
+      <Filter>YIEngine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -393,6 +405,15 @@
     </ClInclude>
     <ClInclude Include="..\..\ExEngine\level2D\MapChip2D.h">
       <Filter>ExEngine\level2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>YIEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinModelRender.h">
+      <Filter>YIEngine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

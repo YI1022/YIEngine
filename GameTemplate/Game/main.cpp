@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "system/system.h"
+#include "MainGame.h"
 
 
 ///////////////////////////////////////////////////////////////////
@@ -29,6 +30,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
 		//レンダリング開始。
 		g_engine->BeginFrame();
 		
+		NewGO<MainGame>(0, "game");
 
 		//////////////////////////////////////
 		//ここから絵を描くコードを記述する。
